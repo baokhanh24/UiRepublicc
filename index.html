@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.scss" />
+    <link rel="stylesheet" href="./assets/css/reponsive.css" />
+    <link rel="stylesheet" href="./assets/css/reponsive.scss" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header_one">
+        
+          <div class="header_nav">
+            <div class="nav_logo">
+              <img src="./assets/img/logo.png" alt="" />
+            </div>
+            <div class="nav_navbar">
+              <ul class="navbar_list">
+                <li class="list_item"><a href="">Home</a></li>
+                <li class="list_item"><a href="">Bedroom</a></li>
+                <li class="list_item"><a href="">Lounge</a></li>
+                <li class="list_item"><a href="">Kitchen</a></li>
+                <li class="list_item"><a href="">Lighting</a></li>
+              </ul>
+              <div class="nav_search">
+                <input type="text" placeholder="Find somthing..." />
+                <div class="search_icon">
+                  <i class="bx bx-search"></i>
+                </div>
+              </div>
+  
+              <div class="nav_contain">
+                <div class="nav_menu">
+                  <i class="bx bx-menu icon_menu" onclick="toggleMenu()"></i>
+                  <i class='bx bx-x icon_delete'onclick="toggleMenu()"></i>
+                  <div class="nav_reponsive">
+                    <ul class="navbar_list_two">
+                      <li class="list_item"><a href="">Home</a></li>
+                      <li class="list_item"><a href="">Bedroom</a></li>
+                      <li class="list_item"><a href="">Lounge</a></li>
+                      <li class="list_item"><a href="">Kitchen</a></li>
+                      <li class="list_item"><a href="">Lighting</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="nav_cart">
+                  <a href="#"><i class="bx bx-cart"></i></a>
+                  <div class="cart_number">3</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header_premium">
+            <div class="premium_content">
+              <div class="conttent_collection">
+                <h1 class="collection_title">Premium collection</h1>
+                <p class="collection_text">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismorem ipsum dolor sit amet, consectetuer
+                  adipiscing elit
+                </p>
+                <span>£2,300</span>
+              </div>
+              <div class="content_button_view">
+                <button><a href="#">view the collection</a></button>
+              </div>
+            </div>
+            <div class="header_productone">
+              <img src="./assets/img/photo1.png" alt="" />
+              <div class="productone_absolute">
+                <div class="absolute_share">
+                  <a href="">Lorem ipsum dolor sit amet</a>
+                  <span>£2,300</span>
+                </div>
+                <div class="absolute_share">
+                  <a href="">Consectetuer adsed diam </a>
+                  <span>£2,300</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      </header>
+      <div class="banner">
+        <div class="banner_photo">
+          <img src="./assets/img/photo2.png" alt="" />
+        </div>
+        <div class="banner_content">
+          <span class="content_living">Living room</span>
+          <h1 class="content_title">Minimalist furniture</h1>
+          <p class="content_text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismorem
+          </p>
+          <div class="content_button_view">
+            <button><a href="#">View armchairs</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <h1 class="product_title">Special discounts</h1>
+        <div class="product_infomation">
+          <div class="infomation_item">
+            <div class="item_position">
+              <img src="./assets/img/item1.png" alt="" />
+              <span>Chairs</span>
+            </div>
+
+            <h3>Sweedish white</h3>
+            <div class="item_buy">
+              <span class="buy_initial">£299</span>
+              <span class="buy_present">£199</span>
+              <div class="buy_boder"></div>
+              <p class="buy_text">next day delivery</p>
+              <div class="buy_package"><i class="bx bx-package"></i></div>
+            </div>
+            <button><a href="#">View Sweedish white<a></button>
+          </div>
+          <div class="infomation_item">
+            <div class="item_position_two">
+              <img src="./assets/img/item2.png" alt="" />
+              <span>Tables</span>
+            </div>
+            <h3>Tri-post table</h3>
+            <div class="item_buy">
+              <span class="buy_initial">£299</span>
+              <span class="buy_present">£199</span>
+              <div class="buy_boder"></div>
+              <p class="buy_text">next day delivery</p>
+              <div class="buy_package"><i class="bx bx-package"></i></div>
+            </div>
+            <button><a href="#">View Tri-post table</a></button>
+          </div>
+          <div class="infomation_item">
+            <img src="./assets/img/item3.png" alt="" />
+            <h3>Pixar lamp</h3>
+            <div class="item_buy">
+              <span class="buy_initial">£299</span>
+              <span class="buy_present">£199</span>
+              <div class="buy_boder"></div>
+              <p class="buy_text">next day delivery</p>
+              <div class="buy_package"><i class="bx bx-package"></i></div>
+            </div>
+            <button><a href="#">View Pixar lamp</a></button>
+          </div>
+          <div class="infomation_item">
+            <img src="./assets/img/item4.png" alt="" />
+            <h3>Sweedish white</h3>
+            <div class="item_buy">
+              <span class="buy_initial">£299</span>
+              <span class="buy_present">£199</span>
+              <div class="buy_boder"></div>
+              <p class="buy_text">next day delivery</p>
+              <div class="buy_package"><i class="bx bx-package"></i></div>
+            </div>
+            <button><a href="">View Sweedish white</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="gallery_view">
+          <div class="view_lounge view_man">
+            <img src="./assets/img/gallery1.png" alt="" />
+            <div class="lounge_overplay lounge_one">
+              <h3>Lounge furniture</h3>
+              <p class="one_view">View collections</p>
+            </div>
+          </div>
+          <div class="view_two">
+            <div class="view_bedroom view_man">
+              <img src="./assets/img/gallery2.png" alt="" />
+              <div class="lounge_bedroom lounge_overplay">
+                <h3>Bedroom furniture</h3>
+                <p class="bedroom_view">View collections</p>
+              </div>
+            </div>
+            <div class="view_kitchens view_man">
+              <img src="./assets/img/gallery3.png" alt="" />
+              <div class="lounge_kitchens lounge_overplay">
+                <h3>Kitchens and kitchenware</h3>
+                <p class="kitchens_view">View collections</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery_two">
+          <div class="gallery_special view_man">
+            <img src="./assets/img/gallery5.png" alt="" />
+            <div class="lounge_special lounge_overplay">
+              <h3 class="special_title">Special offers</h3>
+              <p class="special_view">View deals</p>
+            </div>
+          </div>
+          <div class="gallery_sighting view_man">
+            <img src="./assets/img/gallery4.png" alt="" />
+            <div class="lounge_sighting lounge_overplay">
+              <h3>Lighting</h3>
+              <p class="sighting_view">View collections</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mailing">
+        <div class="mailing_information">
+          <h1>Join our mailing list</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            nonummy nibh euismorem Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh.
+          </p>
+        </div>
+        <div class="mailing_login">
+          <div class="login_input">
+            <div class="input_email input_share">
+              <label>Email address</label>
+              <input class="email" type="text" />
+            </div>
+            <div class="input_name input_share">
+              <label>Your name</label>
+              <input class="name" type="text"  />
+            </div>
+          </div>
+          <div class="login_submit">
+            <button class="submitButton">Submit</button>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="footer_list">
+            <div class="footer_main">
+              <div class="footer_department">
+                <h3>Departments</h3>
+                <div class="footer_two">
+                  <div class="footer_living">
+                    <div class="footer_item">
+                      <h6>Living room</h6>
+                      <ul>
+                        <li><a href="#"> Sofas/chairs</a></li>
+                        <li><a href="#"> Lorem ipsum</a></li>
+                        <li><a href="#"> Dolor sit amet</a></li>
+                        <li><a href="#"> Consectetuer</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="footer_item">
+                      <h6>Bathoom</h6>
+                      <ul>
+                        <li><a href="#"> Sofas/chairs</a></li>
+                        <li><a href="#"> Lorem ipsum</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="footer_bathoom">
+                    <div class="footer_item">
+                      <h6>Bathoom</h6>
+                      <ul>
+                        <li><a href="#"> Sofas/chairs</a></li>
+                        <li><a href="#"> Lorem ipsum</a></li>
+                      </ul>
+                    </div>
+                    <div class="footer_item footer_margin">
+                      <h6>Bathoom</h6>
+                      <ul>
+                        <li><a href="#"> Lorem ipsum</a></li>
+                        <li><a href="#"> Dolor sit amet</a></li>
+                        <li><a href="#"> Consectetuer</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer_contact">
+                <h3>Contact</h3>
+                <div class="footer_support">
+                  <div class="footer_item">
+                    <h6>Customer support</h6>
+                    <ul>
+                      <li><a href="#"> Call 01482 128394</a></li>
+                      <li><a href="#"> Send us a message</a></li>
+                    </ul>
+                  </div>
+                  <div class="footer_item footer_team">
+                    <h6>The team</h6>
+                    <ul>
+                      <li><a href="#"> About us</a></li>
+                      <li><a href="#"> Team careers</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer_network">
+              <a href="#"><img src="./assets/img/network1.png" alt="" /> </a>
+              <a href="#"><img src="./assets/img/network2.png" alt="" /> </a>
+              <a href="#"><img src="./assets/img/network3.png" alt="" /> </a>
+              <a href="#"><img src="./assets/img/network4.png" alt="" /> </a>
+              <a href="#"><img src="./assets/img/network5.png" alt="" /> </a>
+            </div>
+          </div>
+          <div class="footer_border"></div>
+          <div class="footer_made">
+            <span
+              >Made in Hornsea, East Yorkshire, England |
+              www.uirepublic.net</span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="assets/js/main.js"></script>
+</html>
